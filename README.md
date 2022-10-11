@@ -1,7 +1,8 @@
-デプロイ方法
+## How to deploy
 https://vitejs.dev/guide/static-deploy.html
 
-参考
+## 参考
 https://ics.media/entry/210129/
 
-tailwindcss つかえないかな
+## Tips
+p5.js のインスタンスモードを調べると便利にコーディングできそう

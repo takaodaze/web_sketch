@@ -13,12 +13,13 @@ const sketch = (p: p5) => {
         p.angleMode(p.DEGREES); // 回転の単位を弧度から角度に変更
         p.noStroke(); // 線なし（塗りつぶしのみ）に設定
         p.background("#131821"); // 背景色を設定
-        p.blendMode(p.LIGHTEST); // 合成モードを「LIGHTEST=明るく」に設定
+        p.blendMode(p.LIGHTEST); // 合成モードを「LIGHTEST=明るく」に設定;
     };
 
     /** フレームごとの描画処理 */
     p.draw = () => {
         // 塗り色を設定
+        // console.log(p.lerpColor(color2, color1, color1amount).toString());
         p.fill(p.lerpColor(color2, color1, color1amount));
         // 画面中央を原点に
         p.translate(p.width / 2, p.height / 2);
